@@ -1,6 +1,6 @@
 {
   "name": "webcastjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A direct implementation of webcast.js",
   "main": "index.js",
   "scripts": {

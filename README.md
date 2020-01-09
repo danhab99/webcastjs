@@ -1,5 +1,12 @@
 # webcastjs
 
+![npm bundle size](https://img.shields.io/bundlephobia/min/webcastjs?style=flat-square)
+![npm](https://img.shields.io/npm/dw/webcastjs?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/danhab99/webcastjs?style=flat-square)
+![NPM](https://img.shields.io/npm/l/webcastjs?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/danhab99/webcastjs?style=flat-square)
+![npm](https://img.shields.io/npm/v/webcastjs?style=flat-square)
+
 A nodejs implementation of [webcast.js](https://webcast.github.io/)
 
 - [webcastjs](#webcastjs)
