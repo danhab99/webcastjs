@@ -1,0 +1,24 @@
+{
+  "name": "webcastjs",
+  "version": "1.0.0",
+  "description": "A direct implementation of webcast.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/danhab99/webcastjs"
+  },
+  "keywords": [
+    "webcast",
+    "webcast.js",
+    "web",
+    "audio"
+  ],
+  "author": "Dan Habot <dan.habot@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^7.2.1"
+  }
+}
