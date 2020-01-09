@@ -11,6 +11,7 @@ A nodejs implementation of [webcast.js](https://webcast.github.io/)
     - [As a server](#as-a-server)
       - [new class Server(opts) extends EventEmitter](#new-class-serveropts-extends-eventemitter)
       - [emits connection(ws)](#emits-connectionws)
+        - [ws emits](#ws-emits)
 
 ## Install
 
@@ -84,5 +85,10 @@ Emits whenever a new connection is successfully established
 
 - `ws`: the websocket
 
-Note: `ws` will emit `hello` when received first hello message. Otherwise websocket will close.
+##### ws emits
 
+The websocket is modified to emit unique events
+
+- `hello`: the first hello message
+- `metadata`: a change in metadata
+- `frame`: a valid webcast.js frame

@@ -34,7 +34,15 @@ module.exports = class Server extends EventEmitter {
 
         if (hello == null) {
           ws.close()
+          return
         }
+
+        if (frame.type == 'metadata') {
+          ws.emit('metadata', frame.data)
+          return
+        }
+
+        this.emit('frame', frame)
       })
 
       this.emit('connection', ws)
