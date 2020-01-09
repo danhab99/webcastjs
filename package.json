@@ -19,7 +19,6 @@
   "author": "Dan Habot <dan.habot@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "multiple-extend": "^0.1.2",
     "ws": "^7.2.1"
   }
 }

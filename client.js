@@ -1,9 +1,7 @@
 const ws = require('ws')
-const classes = require('multiple-extend');
-const EventEmitter = require('events')
 const { Writable } = require('stream')
 
-module.exports = class Client extends classes(EventEmitter, Writable) {
+module.exports = class Client extends Writable {
   constructor(address, opts) {
     super()
 
